@@ -117,6 +117,7 @@ const BarChart = ({title, data}) => {
     <h1 id="title">{title}</h1>
     <svg ref={svgRef}></svg>
     <h6>Source: Federal Reserve Economic Data</h6>
+    <h6><a href="https://github.com/mrlzchry/GDP-BarChart">Source code</a></h6>
     </div>
   )
 }
