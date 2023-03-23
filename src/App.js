@@ -1,5 +1,6 @@
 import './App.css';
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+// import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+import * as d3 from "d3";
 import React, {useState, useEffect, useRef } from 'react';
 
 const App = () => {
